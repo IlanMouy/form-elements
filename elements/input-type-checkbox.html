@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaires HTML</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,700" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="layout">
+		<section class="content">
+			<h1> Element : Checkbox</h1>
+			<p>L'élément Checkbox <em> (taper </em> <code>&lt;input type="checkbox"&gt;</code>) est un élément de
+        saisie qui permet de sélectionner une valeur dans un formulaire grâce à une case à cocher.</p>
+			<h2>Un exemple&nbsp;:</h2>
+			<form action="" method="post">
+        <label for="checkbox1">
+        <input id="checkbox1" type="checkbox" name="box1"/> Voici une box </label>
+        <label for="checkbox2">
+        <input id="checkbox2" type="checkbox" name="box2"/> Voici une autre </label>
+			  <input type="submit" value="Enregistrer">
+			</form>
+			<h3>Le code derrière tout ça&nbsp;:</h3>
+			<pre>
+&lt;form action="" method="post"&gt;
+ &lt;label for="checkbox1"&gt;:&lt;/label&gt;
+   &lt;input id="checkbox1" type="checkbox" name="box1"&gt; Voici une box
+ &lt;label for="checkbox1"&gt;:&lt;/label&gt;
+   &lt;input id="checkbox2" type="checkbox" name="box2"&gt; Voici une autre
+&lt;input type="submit" value="Enregistrer"&gt;
+&lt;/form&gt;
+			</pre>
+			<h3>Un peu d'explication :</h3>
+			<p>L'attribut <code>method</code> définit la méthode HTTP qui sera utilisée pour envoyer les données au serveur.</p>
+			<p>Si c'est <code>GET</code> les données du formulaire sont ajoutées à l'URI de l'attribut action avec '?' comme séparateur.</p>
+			<p>Si c'est <code>POST</code> les données du formulaire sont incluses dans le corps du formulaire et envoyées vers le serveur.</p>
+			<p>L'attribut <code>action</code> indique le chemin vers le fichier qui traitera les infos transmises via formulaire.</p>
+      <p> Le <code>label</code> permet d'indiquer au navigateur que les éléments qui suivent sont d'une catégorie spécifique. </p>
+      
+		<footer><small>&copy; 2017 Créé par C4pprio</small></footer>
+		</section>
+		<section class="list-of-links">
+			<h2>Liste des éléments&nbsp;:</h2>
+			<ul class="list-of-links__ul">
+				<li><a href="elements/input-type-checkbox.html">input type checkbox</a></li>
+				<li><a href="elements/input-type-email.html">input type email</a></li>
+				<li><a href="elements/input-type-file.html">input type file</a></li>
+				<li><a href="elements/input-type-number.html">input type number</a></li>
+				<li><a href="elements/input-type-radio.html">input type radio</a></li>
+				<li><a href="elements/input-type-range.html">input type range</a></li>
+				<li><a href="elements/input-type-reset.html">input type reset</a></li>
+				<li><a href="elements/input-type-submit.html">input type submit</a></li>
+				<li><a href="elements/input-type-text.html">input type text</a></li>
+				<li><a href="elements/select.html">select</a></li>
+
+			</ul>
+		</section>
+	</div>
+</body>
+</html>
